@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "simpleNode": "ts-node-dev simpleNode.ts",
-    "simpleKoa": "ts-node-dev simpleKoa.ts"
+    "simpleKoa": "ts-node-dev simpleKoa.ts",
+    "start":"ts-node-dev simpleKoa.ts"
 
     
   },
