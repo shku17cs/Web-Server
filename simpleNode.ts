@@ -7,4 +7,4 @@ const app=http.createServer((request,response)=>{
 
 
 });
-app.listen(3000,()=>console.log("simple node server created"));
+app.listen(process.env.port,()=>console.log("simple node server created"));
